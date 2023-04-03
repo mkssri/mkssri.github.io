@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      /*tr:nth-child(even) {
+  background-color: #dddddd;
+}*/
+    </style>
+  </head>
+  <body>
+    <h2>My Work</h2>
+
+    <table>
+      <tr>
+        <th>SNo.</th>
+        <th>Project</th>
+        <th>Technologies</th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>
+          <p>
+            <strong>SP Networks Congestion detection and Mitigation</strong
+            >:<br />
+            Developed a web application that detect's and mitigates congestion
+            in service provider networks which was deployed at multiple service
+            provider's world wide. Application was developed using the API's
+            provided by Cisco Products
+          </p>
+        </td>
+        <td>Python, Django, Yang, Networks.</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>
+          <strong>Automated Network Configuration Deployment</strong>:<br />
+          Developed services using Cisco NSO framework to deploy L2, L3 and
+          Tunnel's(LSP/Segment Routing) to the Network.
+        </td>
+        <td>Python, Yang and Java</td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>
+          <strong>CLI Command CAPI</strong>:<br />
+          Using CAPI framework made cli commands at Arista Jsonify. This code
+          got merged in to Arista EOS(Switch operating system). User's can now
+          get access to output of cli commands via API also.
+        </td>
+        <td>Python</td>
+      </tr>
+      <tr>
+        <td>04</td>
+        <td>
+          <strong>Eggress Queue Counter Bug</strong>:<br />
+          Queues on switch port gets set to zero when switch restarts, currently
+          queues get's build by algorithm which takes like 10 minutes to get
+          rebuild, due to which applicaiton's dependent on this got affected. By
+          compilation of various values from the database i rebuilt the value
+          and added it to the port which helped to fix the counters in few
+          minutes.
+        </td>
+        <td>C++, and Python</td>
+      </tr>
+      <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+      </tr>
+    </table>
+  </body>
+</html>
